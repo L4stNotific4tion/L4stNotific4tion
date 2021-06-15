@@ -1,0 +1,636 @@
+body{
+	font-family: Franklin Gothic, sans-serif;
+}
+/*ПЕРВЫЙ ЭКРАН*/
+	/*Врхняя панель (навигация)*/
+		nav{
+			width: 100%;
+			height: 60px;
+			background-color: #2a3e51;
+		}
+		.name{
+			float: left;
+			color: white;
+			font-size: 25px;
+			line-height: 60px;
+			margin-left: 400px;
+		}
+		ul{
+			float: left;
+			padding-left: 400px;
+		}
+		.menu li{
+			float: left;
+			line-height: 60px;
+			margin-right: 38px;
+			font-size: 18px;
+			color: white;
+			text-transform: uppercase;
+		}
+
+
+	/*Главный экран*/
+		/*фон*/
+			.fon{
+				width: 100%;
+				height: 1022px;
+				background: url(img/FON.jpg) center/cover no-repeat;
+				background-attachment: scroll;
+			}
+		/*контент*/
+			.tit_cont {
+				float: left;
+				margin: 350px 0px 0px 225px;
+				text-align: center;
+			}
+		/*Привет. Я Данил Шашков*/
+			.txt_tit_cont_1 {
+				color: #acb3ba;
+				font-weight: bold;
+				font-size: 68px;
+			}
+		/*Фулстек...*/
+			.txt_tit_cont_2 {
+				font-size: 18px;
+				margin-top: 12px;
+			}
+		/*кнопки*/	
+			.butt_tit_cont input{
+				border: 2px solid white;
+				background: none;
+				height: 42px;
+				width: auto;
+				border-radius: 5px;
+				color: white;
+				font-size: 15px;
+				padding: 0px 15px;
+				margin-top: 50px;
+				margin-left: 25px;
+			}
+
+/*ОБО МНЕ*/
+	/*фон*/
+		.About_me {
+			width: 100%;
+			height: 692px;
+			background: white;
+			text-align: center;
+		} 
+	/*заголовок*/
+		.About_me h2{
+			text-transform: uppercase;
+			color: #1a2e43;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+	/*разделитель*/
+		.About_me_razdel{
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+	/*текст*/
+		.About_me_txt{
+			margin-top: 22px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.About_me_txt1 {
+			width: 720px;
+			text-align: left;
+		}
+		.About_me_txt2 {
+			margin-top: 22px;
+			width: 720px;
+			text-align: left;
+		}
+	/*кнопка*/
+		.About_me_button{
+			background: none;
+			border: 2px solid black;
+			border-radius: 6px;
+			padding: 6px;
+			margin-top: 30px;
+		}
+		.About_me_button_icon {
+			color: black;
+			padding-top: 3px;
+			margin-right: 4px;
+		}
+		.About_me_button_txt {
+			font-size: 18px;
+		}
+
+/*ЧТО Я УМЕЮ*/
+	/*фон и выравнивание*/
+		.WICD {
+			/*фон*/
+				width: 100%;
+				height: 452px;
+				background: url(img/WICD/FON.jpg) center/cover no-repeat;
+				background-attachment: scroll;
+			text-align: center;
+		}
+
+	/*Основной заголовок*/
+		.WICD h2{
+			text-transform: uppercase;
+			color: #1a2e43;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+
+	/*разделитель*/
+		.WICD_razdel {
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+
+	/*блоки (Веб-дизайн, Разработка, СЕО-Оптимизация, Маркетинг)*/
+		.WICD_blocks{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+	/*отступы(поля) между блоками*/
+		.WICD_web_design {
+			margin: 0px 40px 0px 0px;
+		}
+		.WICD_dev {
+			margin: 0px 40px 0px 40px;
+		}
+		.WICD_SEO {
+			margin: 0px 40px 0px 40px;
+		}
+		.WICD_marketing {
+			margin: 0px 0px 0px 40px;
+		}
+
+	/*заголовки*/
+		.WICD_zag {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-weight: bold;
+			color: #eb7800;
+		}
+
+/*КЕЙСЫ*/
+	/*фон и выравнивание*/
+		.cases {
+			/*фон*/
+				width: 100%;
+				height: 1120px;
+				background: white;
+			text-align: center;
+		}
+
+	/*Основной заголовок*/
+		.cases h2{
+			text-transform: uppercase;
+			color: #1a2e43;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+
+	/*разделитель*/
+		.cases_razdel {
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+
+	/*Текст над фоткой*/	
+		.cases_txt_1{
+			margin-bottom: 20px;
+		}
+
+	/*заголовки*/
+		.cases_zag{
+			color: #1a2e43;
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+
+	/*Все флексбоксы*/
+		.cases_ALL_flexboxes{
+			display: flex;
+		}
+
+	/*client и website*/
+		.cases_flexbox_1 {
+			display: flex;
+			margin-left: 343px;
+			flex-direction: column;
+			width: 182px;
+			margin-top: 20px;
+			margin-right: 100px;
+		}
+		.cases_CLIENT {
+			text-align: left;
+			margin-bottom: 10px;
+		}
+		.cases_WEB {
+			text-align: left;
+		}
+
+	/*название проекта*/
+		.cases_flexbox_2{
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		.cases_txt_2{
+			text-align: left;
+		}
+
+	/*кнопка*/
+		.cases_but{
+			display: flex;
+			margin-left: 343px;
+			width: 200px;
+			margin-top: 20px;
+		}
+		.cases input{
+			width: 200px;
+			height: 45px;
+			background: #00b6af;
+			border-radius: 5px;
+			color: white;
+			font-size: 18px;
+		}
+
+/*РАСЧЕТ СТОИМОСТИ*/
+	/*фон и выравнивание*/
+		.CoCalc {
+			height: 685px;
+			width: 956px;
+			border-radius: 15px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 100px;
+			text-align: center;
+			background: linear-gradient(to bottom right, #2d8c9f, #2a3e51)
+		}
+	/*Основной заголовок*/
+		.CoCalc h2{
+			color: white;
+			font-size: 40px;
+			padding-top: 45px;
+			padding-bottom: 35px;
+			font-weight: bold;
+		}
+	/*Параметры*/
+		/*flexbox*/
+			.CoCalc_parametrs {
+				display: flex;
+				flex-direction: column;
+			}
+		/*заголовки*/
+			.CoCalc_parametrs h4{
+				text-align-last: left;
+				margin-left: 33px;
+				font-size: 20px;
+				text-transform: uppercase;
+				color: white;
+				padding-bottom: 15px;
+			}
+		/*отступы сверху заголовков*/
+			.CoCalc_parametrs_Designe{
+				padding-top: 50px;
+			}
+			.CoCalc_parametrs_Adaptability{
+				padding-top: 50px;
+			}
+		/*поля*/
+			.CoCalc_parametrs select{
+				width: 890px;
+				height: 57px;
+				border-radius: 10px;
+				box-shadow: 3px 5px 20px -9px black;
+			}
+		/*разделитель*/
+			.CoCalc_razdel{
+				height: 2px;
+				width: 890px;
+				background: #d2d2d2;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 35px;
+				margin-bottom: 35px;
+			}
+		/*итого*/
+			.CoCalc_ITOGO {
+				display: flex;
+				flex-direction: column;
+			}
+			.CoCalc_ITOGO div{
+				text-align-last: left;
+				margin-left: 33px;
+				font-size: 20px;
+				color: white;
+				padding-bottom: 25px;
+			}
+			.CoCalc_ITOGO_Number1{
+				padding-left: 819px;
+			}
+			.CoCalc_ITOGO_Number2{
+				padding-left: 782px;
+			}
+
+/*НЕМНОГО СТАТИСТИКИ*/
+	/*Фон и выравнивание*/
+		.SomeStat {
+			height: 454px;
+			width: 100%;
+			background: url(img/SS/1.jpg) no-repeat;
+			text-align: center;
+		}
+	/*Основной заголовок*/
+		.SomeStat h2{
+			text-transform: uppercase;
+			color: #1a2e43;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+	/*Разделитель*/
+		.SomeStat_razdel{
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+	/*Cтатистика*/
+		/*flexbox*/
+			.SomeStat_Icons_Txt {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+			}
+		/*цифры*/
+			.SomeStat_Icons_Txt_Num {
+				font-size: 30px;
+				color: #1a2e43;
+				font-weight: bold;
+				margin-top: 15px;
+			}
+		/*текст*/
+			.SomeStat_Icons_Txt_txt{
+				text-transform: uppercase;
+				font-size: 15px;
+				margin-top: 15px;
+				color: #1a2e43;
+			}
+		/*отступы*/	
+			/*cчастливые клиенты*/
+				.SomeStat_Icons_Txt_1 {
+					margin-right: 160px;
+				}
+			/*часы работы*/
+				.SomeStat_Icons_Txt_2{
+					margin-right: 160px;
+				}
+			/*завершенные проекты*/
+				.SomeStat_Icons_Txt_3{
+					margin-right: 160px;
+				}
+
+/*ОТЗЫВЫ*/
+	/*Фон и выравнивание*/
+		.Reviews {
+			height: 575px;
+			width: 100%;
+			background: white;
+			text-align: center;
+		}
+	/*Заголовок*/
+		.Reviews h2{
+			text-transform: uppercase;
+			color: #1a2e43;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+	/*Разделитель*/
+		.Reviews_razdel {
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+	/*Текст*/
+		.Reviews_txt1 {
+			margin-top: 30px;
+			color: #1a2e43;
+		}
+		.Reviews_txt2 {
+			margin-top: 30px;
+			color: #1a2e43;
+			margin-bottom: 50px;
+		}
+	/*Точки*/
+		/*flexbox*/
+			.Reviews_Points {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+			}
+		.Reviews_Points_1 {
+			height: 10px;
+			width: 10px;
+			background: #eb7800;
+			border-radius: 100%;
+			margin-right: 15px;
+		}
+		.Reviews_Points_2 {
+			height: 10px;
+			width: 10px;
+			background: #cfd3d8;
+			border-radius: 100%;
+			margin-right: 15px;
+		}
+		.Reviews_Points_3 {
+			height: 10px;
+			width: 10px;
+			background: #cfd3d8;
+			border-radius: 100%;
+		}
+
+/*МОИ КОНТАКТЫ*/
+	/*Фон и выравнивание*/
+		.Contacts {
+			height: 723px;
+			width: 100%;
+			background: url(img/My_Contacts/FON.jpg) center/cover no-repeat;
+			text-align: center;
+		}
+
+	/*Заголовок*/
+		.Contacts h2{
+			text-transform: uppercase;
+			color: white;
+			font-size: 30px;
+			padding-top: 100px;
+		}
+
+	/*Разделитель*/
+		.Contacts_razdel{
+			height: 4px;
+			width: 70px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			margin-bottom: 60px;
+			background: #eb7800;
+		}
+
+	/*Общий flexbox*/
+		.Contacts_Content{
+			display: flex;
+			flex-direction: row;
+		}
+
+	/*Контент (flexbox) №1*/
+		/*Левая часть общего flexbox,а (иконки соц. сетей)*/
+			.Contacts_Content_SNI {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				margin-left: 61px;		
+			}
+			.Contacts_Content_SNI img{
+				padding-bottom: 50px;
+			}
+
+	/*Контент (flexbox) №2*/
+		/*Правая часть общего flexbox,а*/
+			.Contacts_Content_2{
+				margin-left: 468px;
+				display: flex;
+				flex-direction: column;
+			}
+
+		/*Текст*/
+			.Contacts_Content_2_TXT{
+				padding-bottom: 30px; 
+				margin-left: -38px; 
+			}
+
+		/*Почта, адрес, телефон*/
+				.Contacts_Content_2_Icons {
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					padding-bottom: 48px;
+					margin-left: -38px; 
+				}
+				.Contacts_Content_2_Icons img{
+					padding-bottom: 13px; 
+				}
+				.Contacts_Content_2_Icons_Mail{
+					margin-right: 76px;
+				}
+				.Contacts_Content_2_Icons_Phone{
+					margin-left: 76px;
+				}
+
+		/*Заголовок*/
+			.Contacts_Content_2_Form h3{
+				color: white;
+				margin-bottom: 20px;
+				font-size: 20px;
+			}
+
+		/*Форма*/
+				/*Форма (flexbox)*/
+					.Contacts_Content_2_Form {
+						display: flex;
+						flex-direction: column;
+					}
+				/*Имя, Почта, Сообщение*/
+					/*Имя*/
+						.Contacts_Content_2_Form_Name{
+							height: 34px;
+							width: 350px;
+							margin-right: 32px;
+							margin-bottom: 14px;
+							opacity: 80%;
+						}
+					/*Почта*/
+						.Contacts_Content_2_Form_Mail{
+							height: 34px;
+							width: 350px;
+							margin-bottom: 14px;
+							opacity: 80%;
+						}
+					/*Сообщение*/
+						.Contacts_Content_2_Form_Message{
+							height: 94px;
+							width: 736px;
+							opacity: 80%;
+						}
+					/*Кнопка*/
+						.Contacts_Content_2_Form_But{
+							background: none;
+							margin-top: 20px;
+							margin-left: auto;
+							margin-right: auto;
+							color: white;
+							height: 46px;
+							width: 125px;
+							border: 2px solid white;
+							border-radius: 5px;
+						}
+
+/*КАРТА*/
+	.map{
+		height: 350px;
+		width: 100%;
+	}
+
+/*НИЖНЯЯ ПЛАШКА*/
+	/*Фон и выравнивание*/
+		.footer{
+			height: 96px;
+			width: 100%;
+			background: url(img/footer.jpg) center/cover no-repeat;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+	/*Copyright © 2021 Данил Шашков.*/
+		.footer_txt_1 {
+			color: white;
+			font-size: 17px;
+			margin-right: 10px;
+		}
+	/*Design by Web.*/	
+		.footer_txt_2 {
+			color: white;
+			font-size: 17px;
+		}
