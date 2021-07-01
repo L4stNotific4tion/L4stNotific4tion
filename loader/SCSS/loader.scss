@@ -1,0 +1,73 @@
+@import "null.scss";
+@import url(https://fonts.google.com/specimen/Lato?query=lato:100,300,400,700,900);
+
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.body {
+	font-family: Lato, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(135deg, #FDE4A5, #CB8192);
+}
+.main {
+	&__h2 {
+		font-size: 40px;
+		font-weight: 700;
+		color: rgb(255, 255, 255, 0.8);
+		animation: h2 1.5s linear infinite alternate;
+	}
+	&__loader {
+		margin-top: 40px;
+		height: 50px;
+		transform-origin: bottom center;
+			animation: rotate 3s linear infinite;
+	}
+	&__loader-circle {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background: #be618d;
+		border-radius: 100%;
+		transform: scale(0);
+		margin: -8px;
+			animation: grow 2s linear infinite;
+		&:nth-child(2){
+			background: #fb7b58;
+			animation-delay: 800ms;
+		}
+	}
+}
+
+@keyframes rotate {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes grow {
+	50% {
+		transform: scale(1);
+	}
+}
+
+@keyframes h2 {
+	0% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+
